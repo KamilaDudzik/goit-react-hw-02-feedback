@@ -9,7 +9,8 @@ button {
     padding: 5px 10px;
     transition-duration: 250ms;
     cursor: pointer;
-    border: none
+    border: none;
+    border-radius: 3px;
 }
 
 button:hover {
