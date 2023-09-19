@@ -12,9 +12,11 @@ export const Statistics = ({
         <div className={css.statistics}>
             <h2 className={css.header}>Statistics</h2>
             <ul>
-                <li>Good: <span className={css.number}>{ good }</span></li>
-                <li>Neutral: <span className={css.number}>{ neutral }</span></li>
-                <li>Bad: <span className={css.number}>{ bad }</span></li>
+                <li>Good: <span className={css.number}> {good}</span></li>
+                <li>Neutral: <span className={css.number}> {neutral}</span></li>
+                <li>Bad: <span className={css.number}> {bad}</span></li>
+                <li>Total: <span className={css.number}> {total}</span></li>
+                <li>Positve feedback: <span className={css.number}> {positivePercentage}%</span></li>
             </ul>
         </div>
     )
