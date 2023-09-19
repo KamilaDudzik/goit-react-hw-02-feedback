@@ -1,21 +1,14 @@
-.statistics {
+/* .statistics {
     display: flex;
     flex-direction: column;
     margin: 50px auto;
+} */
+ul{
+    list-style: none;
 }
 
 .header {
     font-size: 20px;
-}
-
-button {
-    padding: 20px 30px;
-}
-
-button:hover {
-    -webkit-box-shadow: 0px 0px 24px 0px rgba(118, 159, 200, 1);
-    -moz-box-shadow: 0px 0px 24px 0px rgba(118, 159, 200, 1);
-    box-shadow: 0px 0px 24px 0px rgba(118, 159, 200, 1);
 }
 
 .number {
