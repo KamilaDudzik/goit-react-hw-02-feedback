@@ -1,3 +1,6 @@
+// import { Component } from "react";
+import { Statistics } from "./Statistics";
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,12 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <Statistics>
+        good={this.state.good}
+        neutral={this.state.neutral}
+        bad={this.state.bad}
+      </Statistics>
     </div>
   );
 };
+ 
